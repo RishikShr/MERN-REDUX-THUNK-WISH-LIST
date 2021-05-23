@@ -22,6 +22,8 @@ const reducer = (state=iState,action)=>{
                 return item._id !== action.payload._id
               })
         return {
+     
+            
             ...state,
             mywishes:newWishes
         };
